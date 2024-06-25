@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/img/img.png" style="margin-bottom: 0; height: 64%; width: 64%;">
+<img src="/docs/img/img.png" style="margin-bottom: 0; height: 64%; width: 64%;">
 
 <h1 style="margin-top: 0"> 基于ROS2通信的目标检测 </h1>
 
@@ -17,7 +17,8 @@
 
 
 
-[**简体中文**](./README.md) 
+[**简体中文**](/README.md) | [**English**](/docs/en/README.md)
+
 </div>
 
 ---
@@ -48,7 +49,11 @@ setup.py # 安装文件
 3. 设置运行环境，执行  `source ~/ros2_ws/install/setup.bash`
 4. 启动发送节点，执行  `ros2 run ros_yolo capturer`
 5. 启动接收节点，执行  `ros2 run ros_yolo detector`
+6. 玩好😉！
 
 ## 运行效果🌟
+<div align="center">
 
-![效果](docs/img/result.png)
+![运行效果](docs/img/result.png)
+
+</div>
